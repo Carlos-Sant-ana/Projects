@@ -1,0 +1,30 @@
+Desenvolver uma aplicação web onde o frontend seja em REACT JS, as APIs do backend sejam em Node JS e o banco de dados PostgreSQL. A aplicação consistirá somente de uma página com
+dois painéis: no painel posicionado a esquerda, deverá ter uma área destinada para a busca de cidades e as informações (Cidade, País, Temperatura atual, Umidade e Clima) referentes
+ao clima da cidade selecionada. No painel da direita deverá possuir informações referentes ao histórico em tempo real de busca, como as top 5 cidades mais buscadas e as últimas 
+cidades pesquisadas.
+
+A API do OpenWeatherMap fornece as informações meteorológicas completas para qualquer local na Terra, incluindo mais de 200.000 cidades. Para fazer sua chamada à API, primeiro 
+crie sua conta gratuita no site e obtenha a CHAVE DA API. Em seguida, use esta CHAVE para executar chamadas de API.
+
+As operações de busca e atualização das informações referente a cidade selecionada, assim como a atualização do histórico devem ser realizadas via AXIOS.
+
+A interface é livre, mas a organização e design serão levados em conta na avaliação.
+
+Observações
+
+● O candidato poderá utilizar os frameworks que desejar, contanto que tenham como base React JS, Node JS e PostgreSQL.
+
+● Organização do código e banco de dados será levada em consideração.
+
+Painel esquerda destinado a busca de cidades e as informações. com API do OpenWeatherMap 
+Na direita deve possuir informações em tempo real de busca com 5 top cidades mais buscadas.
+
+
+  .card{
+    width: 50%;
+    background: #e7e7e7;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 2px;
+    align-content: left;
+  }
