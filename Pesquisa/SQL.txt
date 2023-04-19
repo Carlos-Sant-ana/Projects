@@ -1,6 +1,0 @@
-Create database bd_cidade
-
-------------------------
-Create table Cidade;
-Nome varchar(40);
-Id int;
